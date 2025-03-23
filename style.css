@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background-color: rgb(227, 227, 250);
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+
+  background-color: rgb(254, 255, 255);
+  text-align: center;
+  height: max-content;
+  width: 300px;
+  border-radius: 20px;
+
+  box-shadow: 3px 3px 6px rgb(20, 18, 17);
+}
+
+.imagemCartao {
+  margin: 10px;
+  height: 250px;
+  width: 250px;
+  border-radius: 100%;
+  padding: 20px;
+}
+
+.conteudo {
+  color: rgb(0, 0, 0);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  padding-bottom: 30px;
+}
+
+div .social {
+  display: flex;
+}
+
+div .social img {
+  height: 40px;
+}
